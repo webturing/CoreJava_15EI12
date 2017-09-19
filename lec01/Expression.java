@@ -2,7 +2,7 @@ public class Expression {
 	public static void main(String[] args) {
 		int x=3;//variable
 		final int y=4;//constant
-		//3;//literal ×ÖÃæÁ¿
+		//3;//literal å­—é¢é‡
 		System.out.println(3 + 4);
 		System.out.println(3 * 4);
 		System.out.println(3 / 4);
