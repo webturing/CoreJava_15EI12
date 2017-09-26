@@ -1,11 +1,11 @@
-import java.util.Scanner;//ÒıÈëScannerÀàµÄ¶¨Òå ÀàËÆÓÚ #include<xxx.h>
+import java.util.Scanner;//å¼•å…¥Scannerç±»çš„å®šä¹‰ ç±»ä¼¼äº #include<xxx.h>
 
 public class AAddB {
 	public static void main(String[] args) {
-		Scanner scanner=new Scanner(System.in);//´´½¨Ò»¸öÉ¨ÃèÆ÷¶ÔÏó£¬¿ÉÒÔ´Ó±ê×¼ÊäÈëÖĞ¸ñÊ½»¯¶ÁÈ¡±äÁ¿µÄÖµ
-		int a=scanner.nextInt();//¶ÁÈ¡ÊäÈëÁ÷ÖĞµÄÖµ
+		Scanner scanner=new Scanner(System.in);//åˆ›å»ºä¸€ä¸ªæ‰«æå™¨å¯¹è±¡ï¼Œå¯ä»¥ä»æ ‡å‡†è¾“å…¥ä¸­æ ¼å¼åŒ–è¯»å–å˜é‡çš„å€¼
+		int a=scanner.nextInt();//è¯»å–è¾“å…¥æµä¸­çš„å€¼
 		int b=scanner.nextInt();
 		System.out.println(a+b);
-		scanner.close();//¹Ø±ÕÉ¨ÃèÆ÷¶ÔÏó		
+		scanner.close();//å…³é—­æ‰«æå™¨å¯¹è±¡		
 	}
 }

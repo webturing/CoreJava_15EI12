@@ -1,9 +1,9 @@
 public class OperatorDemo {// Oper
 	public static void main(String[] args) {
-		//+ numeric operator ”µÖµÓ‹Ëã+
+		//+ numeric operator æ•¸å€¼è¨ˆç®—+
 		System.out.println(3 + 4);
 		System.out.println(3 + 4.0);
-		//+ string join ´®ßB½Ó
+		//+ string join ä¸²é€£æŽ¥
 		System.out.println("3"+"4");//"34"
 		System.out.println(3+"4");//"34"
 		System.out.println("3"+4);//"34"

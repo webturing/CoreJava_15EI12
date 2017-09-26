@@ -1,6 +1,6 @@
 public class IntegerDemo {
 	public static void main(String[] args) {
-		//Integer ÊÇ intµÄ°ü×°Æ÷£º·â×°ÁËintÖĞµÄ³£Êı£¬»ù´¡Ëã·¨
+		//Integer æ˜¯ intçš„åŒ…è£…å™¨ï¼šå°è£…äº†intä¸­çš„å¸¸æ•°ï¼ŒåŸºç¡€ç®—æ³•
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.toBinaryString(1023));//int->String
 		System.out.println(Integer.parseInt("1111111111",2));//String->int
