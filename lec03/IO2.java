@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * IO：多組輸入以EOF结束(Ctrl+Z/D)
+ * IO2 澶氱粍杈撳叆浠OF缁撳熬(EOF:End Of File,琛ㄧず鏂囦欢鏈熬锛屽湪鏍囧噯杈撳叆涓彲浠ョ敤Ctrl+Z/D琛ㄧず)
  * 
  * Sample Input 
  * 3 4 
