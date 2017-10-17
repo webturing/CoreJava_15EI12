@@ -1,3 +1,5 @@
+package lec02;
+
 import java.util.Scanner;//引入Scanner类的定义 类似于 #include<xxx.h>
 
 public class AAddB {

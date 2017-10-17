@@ -1,3 +1,5 @@
+package lec02;
+
 public class IntegerDemo {
 	public static void main(String[] args) {
 		//Integer 是 int的包装器：封装了int中的常数，基础算法

@@ -1,3 +1,5 @@
+package lec05;
+
 public class SquareCheck2{
     
     public static void main(String[] args){
@@ -13,6 +15,5 @@ public class SquareCheck2{
         System.out.println(n);
       }
 
-    }
-    
+    }    
 }

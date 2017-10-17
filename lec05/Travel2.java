@@ -1,3 +1,5 @@
+package lec05;
+
 public class Travel2{
     
     public static void main(String[] args){

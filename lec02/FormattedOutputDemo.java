@@ -1,4 +1,6 @@
-public class FormatedOuputDemo {
+package lec02;
+
+public class FormattedOutputDemo {
 	public static void main(String[] args) {
 		double pi = Math.PI;
 		System.out.println(pi);

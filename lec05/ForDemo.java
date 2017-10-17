@@ -1,3 +1,5 @@
+package lec05;
+
 public class ForDemo{
     
     public static void main(String[] args){

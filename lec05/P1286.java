@@ -1,4 +1,6 @@
-public class P1286{    
+package lec05;
+
+public class P1286{
     public static void main(String[] args){
        for(int m=31;m<=99;m++){
        		int n=m*m;
