@@ -1,36 +1,35 @@
 import java.util.Scanner;
 
 /**
- * 3¸öÊýÅÅÐò£¬Ã°ÅÝËã·¨ ±È½Ïa ,b if(a>b) a<->b ±È½Ï b,c ±È½Ï a,b //´ËÊ±cÒÑ¾­ÊÇ×î´óÖµÁË
- * 
+ * 3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã°ï¿½ï¿½ï¿½ã·¨ ï¿½È½ï¿½a ,b if(a>b) a<->b ï¿½È½ï¿½ b,c ï¿½È½ï¿½ a,b //ï¿½ï¿½Ê±cï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½
+ *
  * @author Administrator
- * 
  */
 public class Sort3D {
-	public static void main(String[] args) {
-		Scanner cin = new Scanner(System.in);
-		while (cin.hasNext()) {
-			int a = cin.nextInt();
-			int b = cin.nextInt();
-			int c = cin.nextInt();
-			
-			if (a > b) {
-				int t = a;
-				a = b;
-				b = t;
-			}
-			if (b > c) {
-				int t = b;
-				b = c;
-				c = t;
-			}
-			if (a > b) {
-				int t = a;
-				a = b;
-				b = t;
-			}
-			System.out.println(String.format("%d %d %d", a, b, c));
-		}
-		cin.close();
-	}
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        while (cin.hasNext()) {
+            int a = cin.nextInt();
+            int b = cin.nextInt();
+            int c = cin.nextInt();
+
+            if (a > b) {
+                int t = a;
+                a = b;
+                b = t;
+            }
+            if (b > c) {
+                int t = b;
+                b = c;
+                c = t;
+            }
+            if (a > b) {
+                int t = a;
+                a = b;
+                b = t;
+            }
+            System.out.println(String.format("%d %d %d", a, b, c));
+        }
+        cin.close();
+    }
 }

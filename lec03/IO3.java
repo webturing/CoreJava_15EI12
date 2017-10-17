@@ -1,30 +1,29 @@
 import java.util.Scanner;
 
 /**
- * IO£ºÒÔÒ»¸öT¿ªÍ·ºóÃæÓÐT×éÊý¾Ý
- * 
- * 
- * Sample Input 
- * 2 
- * 3 4 
- * 1 2 
- * Sample Output 
- * 7 
+ * IOï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Tï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * <p>
+ * <p>
+ * Sample Input
+ * 2
+ * 3 4
+ * 1 2
+ * Sample Output
+ * 7
  * 3
- * 
+ *
  * @author Administrator
- * 
  */
 public class IO3 {
-	public static void main(String[] args) {
-		Scanner cin = new Scanner(System.in);
-		int T = cin.nextInt();
-		while (T-- > 0) {
-			int a = cin.nextInt();
-			int b = cin.nextInt();
-			System.out.println(a + b);
-		}
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        int T = cin.nextInt();
+        while (T-- > 0) {
+            int a = cin.nextInt();
+            int b = cin.nextInt();
+            System.out.println(a + b);
+        }
 
-		cin.close();
-	}
+        cin.close();
+    }
 }

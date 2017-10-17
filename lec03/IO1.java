@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 /**
- * IO£ºÖ»ÓÐÒ»½MÝ”Èë
+ * IOï¿½ï¿½Ö»ï¿½ï¿½Ò»ï¿½MÝ”ï¿½ï¿½
  * Sample Input
  * 3 4
  * Sample Output
  * 7
- * @author Administrator
  *
+ * @author Administrator
  */
 public class IO1 {
-public static void main(String[] args) {
-	Scanner cin=new Scanner(System.in);
-	int a=cin.nextInt();
-	int b=cin.nextInt();
-	System.out.println(a+b);
-	
-	cin.close();
-}
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        int a = cin.nextInt();
+        int b = cin.nextInt();
+        System.out.println(a + b);
+
+        cin.close();
+    }
 }

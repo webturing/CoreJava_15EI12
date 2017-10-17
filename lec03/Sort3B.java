@@ -1,31 +1,32 @@
 import java.util.Scanner;
+
 /**
- * 3¸öÊýÅÅÐò£¬ÀÞÌ¨Ëã·¨
- * ¼ÆËã×îÐ¡Öµmin
- * ¼ÆËã×î´óÖµmax
- * ÀûÓÃ¹«Ê½a+b+c==min+mid+max Çó³ömid
- * @author Administrator
+ * 3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¨ï¿½ã·¨
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡Öµmin
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµmax
+ * ï¿½ï¿½ï¿½Ã¹ï¿½Ê½a+b+c==min+mid+max ï¿½ï¿½ï¿½mid
  *
+ * @author Administrator
  */
 public class Sort3B {
-	public static void main(String[] args) {	
-		Scanner cin = new Scanner(System.in);
-		int a = cin.nextInt();
-		int b = cin.nextInt();
-		int c = cin.nextInt();
-		cin.close();
-		int min,mid,max;
-		//TODO
-		min=a;
-		if(b<min)min=b;
-		if(c<min)min=c;
-		max=a;
-		if(b>max)max=b;
-		if(c>max)max=c;
-		//a+b+c==min+mid+max
-		mid=a+b+c-min-max;
-		
-		System.out.println(String.format("%d %d %d", min, mid, max));
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        int a = cin.nextInt();
+        int b = cin.nextInt();
+        int c = cin.nextInt();
+        cin.close();
+        int min, mid, max;
+        //TODO
+        min = a;
+        if (b < min) min = b;
+        if (c < min) min = c;
+        max = a;
+        if (b > max) max = b;
+        if (c > max) max = c;
+        //a+b+c==min+mid+max
+        mid = a + b + c - min - max;
 
-	}
+        System.out.println(String.format("%d %d %d", min, mid, max));
+
+    }
 }

@@ -1,30 +1,30 @@
 import java.util.Scanner;
 
 public class LeapYear {
-	/**
-	 * ÈòÄêËã·¨:ËÄÄêÒ»Èò£¬°ÙÄê²»Èò£¬ËÄ°ÙÄêÔÙÈò 2016 is leap year 1900 is not leap year 2000 is leap
-	 * year 1998 is not leap year
-	 */
-	public static void main(String[] args) {
-		int year;
-		Scanner cin = new Scanner(System.in);
-		year = cin.nextInt();
-		cin.close();
-		boolean leap;
-		if (year % 4 == 0) {
-			if (year % 100 != 0)
-				leap = true;// bugs here
-			else {
-				if (year % 400 == 0)
-					leap = true;
-				else
-					leap = false;
-			}
-		} else {
-			leap = false;
-		}
+    /**
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ã·¨:ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ò£¬°ï¿½ï¿½ê²»ï¿½ï¿½ï¿½Ä°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2016 is leap year 1900 is not leap year 2000 is leap
+     * year 1998 is not leap year
+     */
+    public static void main(String[] args) {
+        int year;
+        Scanner cin = new Scanner(System.in);
+        year = cin.nextInt();
+        cin.close();
+        boolean leap;
+        if (year % 4 == 0) {
+            if (year % 100 != 0)
+                leap = true;// bugs here
+            else {
+                if (year % 400 == 0)
+                    leap = true;
+                else
+                    leap = false;
+            }
+        } else {
+            leap = false;
+        }
 
-		System.out.println(leap);
+        System.out.println(leap);
 
-	}
+    }
 }
