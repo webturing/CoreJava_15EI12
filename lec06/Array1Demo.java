@@ -1,4 +1,4 @@
-package lec07;
+package lec06;
 
 import java.util.Arrays;
 
@@ -15,5 +15,6 @@ public class Array1Demo {
         for (int i : a)//foreach
             System.out.println(i);
         System.out.println(Arrays.toString(a));//neat
+        System.out.println(Arrays.toString(b));
     }
 }
