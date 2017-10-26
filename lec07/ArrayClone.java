@@ -1,26 +1,26 @@
-package week07;
+package lec07;
 
 import java.util.Arrays;
 
 public class ArrayClone {
-	public static void main(String[] args) {
-		int a[]={1,2,3,4,5};		
-		int[] b=a;//Ç³¿ËÂ¡
-		System.out.println(Arrays.toString(a));
-		System.out.println(Arrays.toString(b));
-		a[0]++;
-		System.out.println(Arrays.toString(b));
-		//¿ËÂ¡1
-		int []c=new int[a.length];
-		for(int i=0;i<c.length;i++)
-			c[i]=a[i];
-		//¿ËÂ¡2
-		int []d=a.clone();
-		//¿ËÂ¡3
-		int []e=new int[]{1,3,4,5,6};
-		
-		e=a;//¸Ä±äÊý×éµÄÒýÓÃ
-		
-		
-	}
+    public static void main(String[] args) {
+        int a[] = {1, 2, 3, 4, 5};
+        int[] b = a;//Ç³ï¿½ï¿½Â¡
+        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(b));
+        a[0]++;
+        System.out.println(Arrays.toString(b));
+        //ï¿½ï¿½Â¡1
+        int[] c = new int[a.length];
+        for (int i = 0; i < c.length; i++)
+            c[i] = a[i];
+        //ï¿½ï¿½Â¡2
+        int[] d = a.clone();
+        //ï¿½ï¿½Â¡3
+        int[] e = new int[]{1, 3, 4, 5, 6};
+
+        e = a;//ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+    }
 }
