@@ -1,18 +1,20 @@
 package lec07;
 
-import java.util.Scanner;
+
+import java.util.Random;
 
 public class GuessNumber2 {
+    static Random rand = new Random();
     public static void main(String[] args) {
-        Scanner cin = new Scanner(System.in);
-        int start = 0, end = 999;
-        int key = (int) (Math.random() * 1000);// [0,99]
+        int start = 1, end = 100;
+        int key = rand.nextInt(end - start + 1) + start;// [start,end]
+        boolean flag = false;
         for (int i = 0; i < 10; i++) {
-            System.out.print("Computer guess the number is:");
+            System.out.print("Computer guessed the number is:");
             int user = (start + end) / 2;
             System.out.println(user);
             if (user == key) {
-                System.out.println("Congratulations!");
+                flag = true;
                 break;
             } else if (user > key) {
                 end = user - 1;
@@ -22,6 +24,10 @@ public class GuessNumber2 {
                 System.out.println("Too smaller~");
             }
         }
-        cin.close();
+        if (flag) {
+            System.out.println("Congratulations!");
+        } else {
+            System.out.println("Sorry~");
+        }
     }
 }
