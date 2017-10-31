@@ -49,3 +49,8 @@ static int factorial(int n){
 }
 ```
 ## String API
+- length
+- charAt(index)
+- join:s1+s2
+- startWith/endWith/contains
+- split
