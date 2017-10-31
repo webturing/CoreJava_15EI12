@@ -3,14 +3,49 @@
 ## Java Static Methods
 ###  methods without return-value
 ```aidl
-
+static void foo( ...ARGS...){
+....
+}
 
 ```
-###  methods with return-value
+###  methods with return-value(int,array,Object)
+```aidl
+static RETURN-TYPE foo(...ARGS...){
+....
 
-## function design
+    return EXPRESSION;
+}
+```
+## function design  (Yanghui Triangle)
+
 ### bottom-up
+```aidl
+f(),g()->h()->main()
+```
 ### top-down
-### recursive
+```aidl
+main()<-h()<-g(),f()
+```
+### recursive //f->f()
+- recursive base
+- recursive body
+```aidl
+    ... fun(){
+        ...
+        fun()
+        ...
+    
+    }
 
+```
+eg:
+```aidl
+static int factorial(int n){
+    if(n<=1){
+        return 1;
+    }else{
+        return factorial(n-1)*n;
+    }
+}
+```
 ## String API
