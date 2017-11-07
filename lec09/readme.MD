@@ -1,8 +1,17 @@
 # A Review of Java
 
-
 ## 随机数算法Random
-## 高精度计算BigInteger/BigDecimal
+- 产生指定范围内的整数
+- 产生指定分布的随机数
+- Math.random()
+- java.util.Random
+* 抽奖
+* 洗牌
+* 红包
+## 高精度计算
+- BigInteger
+- BigDecimal
+
 
 ## 基本输入输出
 - 程序基本结构
