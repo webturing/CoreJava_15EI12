@@ -30,25 +30,25 @@
 - 数组排序
 
 ## 常用类和算法
-(1)	java.lang
-a)	System
-b)	String/StringBuffer
-c)	Integer/Character/
-d)	Runtime
-e)	Math.:sqrt()/pow()/random()
-(2)	java.math:
-a)	BigInteger/BigDecimal
-(3)	java.util:
-a)	Date
-b)	Arrays/Collections(sort binarySearch)
-c)	Vector/ArrayList/LinkedList/Queue/ProirtyQueue/Stack
-d)	TreeSet/TreeMap//O(logN)
-e)	HashSet/HashMap  //O(1)
-f)	Random 
-g)	Comparator/Comparable
-(4)	java.io
-a)	File/FileReader/FileInpuStream/BufferedInputStream/BufferedOutputStream
-b)	Scanner/PrintWriter
+###	java.lang
+-	System
+-	String/StringBuffer
+-	Integer/Character/
+-	Runtime
+-	Math.:sqrt()/pow()/random()
+###	java.math:
+-	BigInteger/BigDecimal
+###	java.util:
+-	Date
+-	Arrays/Collections(sort binarySearch)
+-	Vector/ArrayList/LinkedList/Queue/ProirtyQueue/Stack
+-	TreeSet/TreeMap//O(logN)
+-	HashSet/HashMap  //O(1)
+-	Random 
+-	Comparator/Comparable
+###	java.io
+-	File/FileReader/FileInpuStream/BufferedInputStream/BufferedOutputStream
+-	Scanner/PrintWriter
 
 
 
