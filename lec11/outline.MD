@@ -1,4 +1,4 @@
-# OOP2 Inheritance and Morphism
+# OOP2 Inheritance and Polymorphism
 ## 面向对象三大特征：
 ### 封装: java class 封装了字段Field和方法Method
 #### static fields:
@@ -25,7 +25,7 @@
 - 子类的字段隐藏了父类的同名字段
 - 子类的方法重载了父类的同名方法
 
-### 多态
+### 多态Polymorphism
 - 抽象类的存在
 - 具体子类
 - 多态和动态绑定
