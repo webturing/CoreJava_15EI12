@@ -1,7 +1,12 @@
+package lec14Final;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+/**
+ * 异常处理机制 try catch(可以多个）finally
+ */
 public class ExceptionDemo {
 	public static void main(String[] args) {
 		int a[] = { 1, 2, 3 };

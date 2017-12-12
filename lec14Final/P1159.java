@@ -1,3 +1,5 @@
+package lec14Final;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,7 +11,7 @@ import java.util.Scanner;
  * Sample Output 99.00 98.50
  * 
  * @author Administrator
- * 
+ * 不用修改代码，本地调用文件，oj提交时候自动绑定标准
  */
 
 public class P1159 {

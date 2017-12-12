@@ -1,3 +1,7 @@
+/**
+ * 可变字符串StringBuffer使用
+ */
+package lec14Final;
 
 public class SystemetricChecker {
 public static void main(String[] args) {

@@ -1,3 +1,7 @@
+/**
+ * 逆反a*b
+ */
+package lec14Final;
 
 public class ReverseIntMultplier {
 	public static void main(String[] args) {

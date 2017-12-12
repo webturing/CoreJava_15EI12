@@ -1,10 +1,14 @@
+package lec14Final;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+/**
+ * 有缓冲的字节文件拷贝（接近OS的效率）
+ */
 public class BufferedFileCopy {
 	public static void main(String[] args) throws IOException {
 		long start = System.currentTimeMillis();

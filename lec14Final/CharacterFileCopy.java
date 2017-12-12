@@ -1,3 +1,8 @@
+package lec14Final;
+/**
+ * 字符文件拷贝
+ */
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
